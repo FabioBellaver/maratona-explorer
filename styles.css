@@ -1,0 +1,71 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+img {
+	width: 120px;
+}
+
+#container {
+	margin-top: 120px;
+	width: 80%;
+	max-width: 400px;
+	margin-inline: auto;
+}
+
+h1 {
+	margin: 16px 0;
+	opacity: 0.9;
+}
+
+.description {
+	margin-bottom: 16px;
+	opacity: 0.7;
+}
+
+input, button {
+	display: block;
+	width: 100%;
+	padding: 20px;
+	outline: none;
+	border-radius: 5px;
+	border: none;
+}
+
+input {
+	margin-bottom: 16px;
+	font-size: 16px;
+}
+
+button {
+	font-size: 16px;
+	color: white;
+	background-color: #0096c7;
+	font-weight: 500;
+	transition: filter .2s;
+	cursor: pointer;
+}
+
+button:hover {
+	filter: brightness(1.2)
+}
+
+#answers p {
+	margin-top: 16px;
+	opacity: 0.7;
+	transition: opacity 1s;
+}
+
+#answers h3 {
+	margin-top: 16px;
+	transition: opacity 1s;
+}
